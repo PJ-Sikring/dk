@@ -11049,24 +11049,30 @@ html {
   --bs-primary-rgb: 108, 117, 125;
 }
 
-/* Override background color for bg-primary elements */
+/* Update bg-primary */
 .bg-primary {
   background-color: #6c757d !important;
   border-color: #6c757d !important;
 }
 
-/* Override buttons */
+/* Update btn-primary */
 .btn-primary {
   background-color: #6c757d !important;
   border-color: #6c757d !important;
+  color: #fff !important; /* make sure text is white */
 }
 
-.btn-primary:hover {
-  background-color: #5c636a !important; /* darker on hover */
+/* btn-primary hover/focus/active states */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #5c636a !important;
   border-color: #5c636a !important;
+  color: #fff !important;
 }
 
-/* Only change #mainNav (navbar) background */
+/* Navbar specific color */
 #mainNav,
 #mainNav.navbar-shrink {
   background-color: #212529 !important;
