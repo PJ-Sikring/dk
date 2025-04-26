@@ -11044,35 +11044,25 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+/* Override Bootstrap default primary color */
 :root {
-  --bs-primary: #6c757d;
+  --bs-primary: #6c757d;  /* Dark gray color */
   --bs-primary-rgb: 108, 117, 125;
 }
 
-/* Update bg-primary */
+/* For buttons and backgrounds using .bg-primary */
 .bg-primary {
-  background-color: #6c757d !important;
-  border-color: #6c757d !important;
+  background-color: #6c757d !important;  /* Dark gray background */
+  border-color: #6c757d !important;  /* Dark gray border */
 }
 
-/* Update btn-primary */
+/* For buttons using .btn-primary */
 .btn-primary {
   background-color: #6c757d !important;
   border-color: #6c757d !important;
-  color: #fff !important; /* make sure text is white */
 }
 
-/* btn-primary hover/focus/active states */
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active {
-  background-color: #6c757d !important;
-  border-color: #6c757d !important;
-  color: #fff !important;
-}
-
-/* Navbar specific color */
+/* Change navbar background to dark gray */
 #mainNav,
 #mainNav.navbar-shrink {
   background-color: #212529 !important;
