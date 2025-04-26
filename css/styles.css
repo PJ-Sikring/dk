@@ -11044,3 +11044,14 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+/* override Bootstrap green */
+.btn-success,
+.bg-success {
+  background-color: #3b5998 !important;
+  border-color: #3b5998 !important;
+}
+
+.btn-success:hover {
+  background-color: #2d4373 !important;
+  border-color: #2d4373 !important;
+}
