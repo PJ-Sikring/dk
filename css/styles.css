@@ -11050,16 +11050,28 @@ html {
   --bs-primary-rgb: 108, 117, 125;
 }
 
-/* For buttons and backgrounds using .bg-primary */
-.bg-primary {
-  background-color: #6c757d !important;  /* Dark gray background */
-  border-color: #6c757d !important;  /* Dark gray border */
-}
-
 /* For buttons using .btn-primary */
 .btn-primary {
   background-color: #6c757d !important;
   border-color: #6c757d !important;
+}
+
+/* Hover state for .btn-primary to keep it gray */
+.btn-primary:hover {
+  background-color: #5a6268 !important;  /* Slightly darker gray */
+  border-color: #545b62 !important;  /* Darker gray border */
+}
+
+/* For backgrounds using .bg-primary */
+.bg-primary {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
+/* Hover state for .bg-primary */
+.bg-primary:hover {
+  background-color: #5a6268 !important;  /* Slightly darker gray for hover */
+  border-color: #545b62 !important;  /* Darker gray for hover */
 }
 
 /* Change navbar background to dark gray */
