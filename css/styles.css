@@ -11045,14 +11045,14 @@ html {
   background-color: #1a252f;
 }
 :root {
-  --bs-primary: #20c997;
-  --bs-primary-rgb: 32, 201, 151;
+  --bs-primary: #6c757d;
+  --bs-primary-rgb: 108, 117, 125;
 }
 
-/* For buttons and .bg-primary */
+/* For buttons and backgrounds using .bg-primary */
 .bg-primary {
-  background-color: #20c997 !important;
-  border-color: #20c997 !important;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
 }
 
 /* Only change #mainNav (your navbar), not ALL navbars */
