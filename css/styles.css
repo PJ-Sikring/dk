@@ -11055,6 +11055,7 @@ html {
 }
 
 .navbar,
-#mainNav {
+#mainNav,
+#mainNav.navbar-shrink {
   background-color: #3b5998 !important;
 }
