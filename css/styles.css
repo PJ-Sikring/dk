@@ -11049,13 +11049,13 @@ html {
   --bs-primary-rgb: 59, 89, 152;
 }
 
+/* Only for buttons and backgrounds using .bg-primary */
 .bg-primary {
   background-color: #3b5998 !important;
   border-color: #3b5998 !important;
 }
 
-.navbar,
+/* Only change #mainNav (your navbar), not ALL navbars */
 #mainNav,
 #mainNav.navbar-shrink {
   background-color: #3b5998 !important;
-}
