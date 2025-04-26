@@ -11044,7 +11044,17 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+:root {
+  --bs-primary: #3b5998;
+  --bs-primary-rgb: 59, 89, 152;
+}
+
 .bg-primary {
   background-color: #3b5998 !important;
   border-color: #3b5998 !important;
+}
+
+.navbar,
+#mainNav {
+  background-color: #3b5998 !important;
 }
