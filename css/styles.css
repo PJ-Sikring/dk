@@ -11049,13 +11049,24 @@ html {
   --bs-primary-rgb: 108, 117, 125;
 }
 
-/* For buttons and backgrounds using .bg-primary */
+/* Override background color for bg-primary elements */
 .bg-primary {
   background-color: #6c757d !important;
   border-color: #6c757d !important;
 }
 
-/* Only change #mainNav (your navbar), not ALL navbars */
+/* Override buttons */
+.btn-primary {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
+.btn-primary:hover {
+  background-color: #5c636a !important; /* darker on hover */
+  border-color: #5c636a !important;
+}
+
+/* Only change #mainNav (navbar) background */
 #mainNav,
 #mainNav.navbar-shrink {
   background-color: #212529 !important;
